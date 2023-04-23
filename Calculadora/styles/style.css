@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* aqui sera alterado as cores do fundo página, o nome"Taciano Junior" além das cores das letras, a fonte e o texto será alinhado ao centro */
+.fundo{
+    background-image: linear-gradient(100deg,black,yellow);
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* aqui será alinhando os elementos da classe ao centro da página, modificando as cores, bordas */
+.calculadora{
+    position: absolute;
+    background-color:rgba(0,0,0,0.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+/*aqui será padronizados os botões da calculadora */
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: none;
+    margin: 2px;
+}
+
+#btn01 {
+    height: 106px;
+}
+
+#btn02{
+    width: 106px;
+}
+/* efeito que ao passar o mouse por cima a cor mudará para preto*/
+.botao:hover{
+    background-color: black;
+}
+/* essa parte exibirá ao usuário os números digitado e a operações por ele escolhida*/
+#resultado{
+   background-color: #fff;
+   color: black;
+   width: 207px;
+   height: 30px;
+   margin: 5px;
+   font-size: 25px;
+   text-align: right;
+   padding: 5px;
+}
